@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .logo-placeholder {
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  h1 {
+    color: #a855f7;
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav {
+    margin: 10px 0;
+  }
+  
+  nav a {
+    margin: 0 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:nth-child(1) { color: purple; }
+  nav a:nth-child(2) { color: green; }
+  nav a:nth-child(3) { color: orange; }
+  nav a:nth-child(4) { color: red; }
+  
+  hr.purple-line {
+    border: none;
+    border-top: 2px solid #a855f7;
+    margin: 15px 0;
+  }
+  
+  main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .noticias {
+    flex: 3;
+  }
+  
+  .noticia-destacada, .noticia-secundaria {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .texto h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitulo {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .resumen {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .imagen-placeholder {
+    width: 300px;
+    height: 170px;
+    background-color: #ddd;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #aaa;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .banderita {
+    width: 250px;
+    height: 200px;
+  }
+  
+  .recomendado {
+    flex: 1;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 1px solid #ccc;
+  }
+  
+  .recomendado h3 {
+    margin-top: 0;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
